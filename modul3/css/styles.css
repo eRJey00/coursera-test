@@ -1,0 +1,84 @@
+body {
+    font-size: 16px;
+    background-color: #b5b5b5;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: rgb(255, 235, 205);
+    border-radius: 0;
+    box-shadow: 0px 0px 4px #ffffff;
+
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    padding-bottom: 56px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: rgb(0, 33, 18);
+    font-size: 2.4em;
+    font-weight: 900;
+    text-shadow: -4px 8px 9px #757575;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    letter-spacing: 1px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1.5px #696969 solid;
+}
+
+#collapsable-nav {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+
+
+/* Main conent */
+h2 {
+    font-weight: bold;
+    font-size: 52px;
+    text-shadow: -2px 2px 1px #ffffff;
+}
+
+#menu-text {
+    background-color: rgb(255, 226, 181);
+    border: 1.5px #696969 solid;
+    border-radius: 10px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    box-shadow: 0px 0px 8px #ffffff;
+}
+
+section>h3 {
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 0px 10px #ffffff, 0px 0px 10px #646464, 0px 0px 8px #ffffff;
+}
+
+@media (min-width: 768px),
+(max-width: 992px) {}
+
+@media (min-width: 370px),
+(max-width: 767px) {
+    .navbar-header>h2 {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 369px) {
+    .navbar-header>h2 {
+        font-size: 8vw;
+    }
+}
